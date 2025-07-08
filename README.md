@@ -4,9 +4,6 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 
 ## Conteúdo
 
-* **notebooks/**
-
-  * `TrabalhoEconometria.Rmd`: Documento RMarkdown com todo o código em R, incluindo tratamento de dados, análise descritiva, visualizações e estimativas econométricas.
 * **data/**
 
   * `br_sp_gov_ssp_ocorrencias_registradas.csv`: Base de dados de ocorrências criminais por município e região.
@@ -14,7 +11,8 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 * **scripts/**
 
   * `analise_criminalidade.R`: Script em R que reproduz toda a análise de forma sequencial.
-* **Analise criminalidade.txt**: Exportação do notebook original (para referência).
+* `Analise criminalidade.txt`: Exportação do notebook original (para referência).
+* `README.md`: Este arquivo.
 
 ## Estrutura do Projeto
 
@@ -22,8 +20,6 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 ├── data/
 │   ├── br_sp_gov_ssp_ocorrencias_registradas.csv
 │   └── habitantes_por_municipio.xlsx
-├── notebooks/
-│   └── TrabalhoEconometria.Rmd
 ├── scripts/
 │   └── analise_criminalidade.R
 ├── Analise criminalidade.txt
@@ -33,7 +29,7 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 ## Pré-requisitos
 
 * R (>= 4.0)
-* RStudio ou outro editor compatível com RMarkdown
+* RStudio ou outro ambiente que execute scripts R
 
 ### Pacotes R
 
@@ -58,13 +54,7 @@ install.packages(c("readr", "dplyr", "ggplot2", "plm", "lubridate", "tidyr"))
    git clone https://github.com/seu-usuario/analise-criminalidade-sp.git
    cd analise-criminalidade-sp
    ```
-2. Abra o RStudio e carregue o arquivo RMarkdown:
-
-   ```r
-   # No console do R
-   rmarkdown::render("notebooks/TrabalhoEconometria.Rmd")
-   ```
-3. Para rodar o script sequencial em R:
+2. Execute o script R sequencialmente no R ou RStudio:
 
    ```r
    source("scripts/analise_criminalidade.R")
