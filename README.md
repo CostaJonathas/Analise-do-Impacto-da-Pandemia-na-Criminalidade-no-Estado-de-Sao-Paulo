@@ -1,0 +1,1 @@
+# Analise-do-Impacto-da-Pandemia-na-Criminalidade-no-Estado-de-Sao-Paulo
