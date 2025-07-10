@@ -11,7 +11,6 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 * **scripts/**
 
   * `analise_criminalidade.R`: Script em R que reproduz toda a análise de forma sequencial.
-* `Analise criminalidade.txt`: Exportação do notebook original (para referência).
 * `README.md`: Este arquivo.
 
 ## Estrutura do Projeto
@@ -22,7 +21,6 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 │   └── habitantes_por_municipio.xlsx
 ├── scripts/
 │   └── analise_criminalidade.R
-├── Analise criminalidade.txt
 └── README.md
 ```
 
