@@ -79,6 +79,6 @@ Este projeto está sob a [MIT License](LICENSE).
 
 ## Contato
 
-* Autor: Jonathas Costa da Sila
+* Autor: Jonathas Costa da Silva
 * Email: joncosil@hotmail.com
 * LinkedIn: https://www.linkedin.com/in/jonathas-costa-da-silva-939b311b6/
