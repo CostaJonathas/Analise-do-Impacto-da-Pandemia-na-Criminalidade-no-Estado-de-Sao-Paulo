@@ -5,9 +5,9 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 ## Conteúdo
 
 * **data/**
-
-  * `br_sp_gov_ssp_ocorrencias_registradas.csv`: Base de dados de ocorrências criminais por município e região.
-  * `habitantes_por_municipio.xlsx`: Planilha com estimativas populacionais por município e ano.
+  * **dados.7z/**
+    * `br_sp_gov_ssp_ocorrencias_registradas.csv`: Base de dados de ocorrências criminais por município e região.
+    * `habitantes_por_municipio.xlsx`: Planilha com estimativas populacionais por município e ano.
 * **scripts/**
 
   * `analise_criminalidade.R`: Script em R que reproduz toda a análise de forma sequencial.
@@ -17,8 +17,9 @@ Este repositório contém o trabalho de econometria em **R**, que analisa como a
 
 ```bash
 ├── data/
-│   ├── br_sp_gov_ssp_ocorrencias_registradas.csv
-│   └── habitantes_por_municipio.xlsx
+|───|── dados.7z
+│   ├─── br_sp_gov_ssp_ocorrencias_registradas.csv
+│   └─── habitantes_por_municipio.xlsx
 ├── scripts/
 │   └── analise_criminalidade.R
 └── README.md
